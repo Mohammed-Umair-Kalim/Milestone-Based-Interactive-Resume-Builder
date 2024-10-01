@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(105, 105, 105);
+}
+
+
+#body2{
+    background-color: #ffffff;
+    
+}
+
+#div1{
+    background-color: rgba(196, 22, 22, 0.719);
+    font-size:x-large;
+    font-family:cursive;
+    text-align: center;
+}
+
+#h1{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+}
+
+.sec{
+    background-color: rgb(196, 88, 17);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#btn1{
+    font-size: x-large;
+    background-color: rgb(0, 0, 0);
+    color: rgb(17, 230, 141);
+    margin-left: 65%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.inp{
+    width: 253px;
+    height: 20px;
+   font-size: 16px;
+    
+    margin-bottom: 12px;
+    box-sizing: border-box; 
+    font-weight: 500;
+    font-style: italic;
+    font-style: bold;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#imgLabel {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 5px solid #ff0000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+    padding-top: 10px;
+    border: 1px solid #979996;
+    border-radius: 40px;
+    margin: 0 auto; 
+}
+
+.border {
+    border: 20px solid #970f0f;
+    padding: 10px;
+    border-radius: 80px;
+}
+
+#resume {
+    border: 20px solid #e6be0f;
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#btnDiv{
+    position: absolute; 
+    margin-bottom: 130%;
+    left: 70%; 
+    
+}
+
+#pdf{
+    
+    font-size: x-large;
+    
+     background-color: rgba(206, 25, 25, 0.911);
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+    
+     position:sticky;
+    margin-bottom: 40;
+     /* border-radius: 50%; */
+     margin-left: 70%; 
+     margin-bottom: 20%;
+}
+
+#share{
+    
+    font-size: larger;
+    background-color: rgb(50, 163, 40);
+    color: rgb(255, 255, 255);
+     /* position: absolute; */
+    cursor: pointer;
+     margin-left: 10%;
+
+    /* border-radius: 40%;  */
+}
+
+#shareDiv{
+    margin-top: 1%;
+}
+
+#homeBtn{
+    font-size: x-large;
+    background-color: rgb(211, 125, 55);
+    color: rgb(0, 0, 0);
+    margin-bottom: 1%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.NAE{
+    font-size: x-large;
+}

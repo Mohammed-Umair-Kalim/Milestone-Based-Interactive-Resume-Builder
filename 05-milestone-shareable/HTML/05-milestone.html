@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../CSS/05-milestone.css" rel="stylesheet" />
+
+    <title>Downloadable & Shareable Resume</title>
+
+  </head>
+  
+  <body>
+    
+    <h1 id="h1"><label><u>-Downloadable & Shareable Resume-</u></label></h1>
+    <div id="div1" class="border">
+      
+      <form id="resumeForm" >
+        
+        <section class="sec">
+            
+          <h2><label><u>Personal Information:</u></label><br/>
+            
+              <b><label for="name" class="NAE">*Enter Your Name:</label></b>
+              <input 
+                placeholder="i.e Umair"
+                type="text"
+                id="name"
+                name="name"
+                required
+                size="60"
+                class="inp"
+                
+              />
+            
+            <br>
+              <b><label class="NAE">*Enter Your Age:</label> </b>
+              <input id="age" type="number" size="60" required class="inp" placeholder="i.e 25" />
+            
+            <br>
+              <b><label class="NAE">*Enter Your Email Address:</label> </b>
+              <input id="email" type="email" name="email" size="60" required class="inp" placeholder="i.e ABC@gmail.com" />
+        </section>
+
+        <section class="sec">
+          <label><h2><u>*Education:</u></h2>
+
+              <b>*Enter Your Qualification:</b></label>
+              <input id="edu" type="text" size="60" required class="inp" placeholder="i.e Graduate"/>
+        </section>
+
+        <section class="sec">
+          <h2><label><u>Work Experience:</u></label></h2>
+          
+              <b><label>*Enter Your Work Experience:</label></b>
+              <input id="exp" type="text" size="60" required class="inp" placeholder="i.e 2 years of work experience in pravite company"/>
+            
+          
+        </section>
+
+        <section class="sec">
+         
+            <h2><label><u>Skills:</u></label></h2>
+            <b><label>*Enter Your Skills:</label></br>
+          
+            *1-<input id="ski1" type="text" size="60" required class="inp" placeholder="i.e web-developement"/><br>
+           2-<input id="ski2" type="text" size="60" class="inp" /><br>
+            3-<input id="ski3" type="text" size="60" class="inp" /><br>
+
+        </section>
+      </form>
+
+      <button id="btn1" onclick="generateResume()">Click Here To Generate Resume</button>
+
+      <div id="div2"></div>
+
+      <script id="script" src="../TypeScript-JavaScript/05-milestone.js"></script>
+    </div>
+    
+  </body>
+</html>
