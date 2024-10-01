@@ -1,6 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/", "destination": "/HTML/05-milestone.html" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/", "destination": "/HTML/05-milestone.html" },
+    { "source": "/resume-generated", "destination": "/HTML/resume-generated.html" }
+  ]
+}
